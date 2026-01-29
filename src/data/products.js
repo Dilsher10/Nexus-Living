@@ -175,22 +175,8 @@ export const data = [
         thumbnailText: 'Control your environment instantly using the trendy Google Nest / Home Mini (2nd Gen) for hearing activation.',
         gallery: ['1.png', '5.png']
     },
-    // {
-    //     id: 13,
-    //     hero: '1.png',
-    //     slug: 'automation-smart-control',
-    //     category: 'Automation / Smart Control',
-    //     title: 'Smart Life App Integration',
-    //     thumbnailText: 'Connects all your Smart products for streamlined control and monitoring through a single primary application.',
-    //     bannerText: 'Smart Automation, Total Control',
-    //     headline1: 'The Unified Mobile Platform for Controlling Your Full Ecosystem',
-    //     para1: 'The Smart Life App serves as a single, easy-to-use control center for all your connected devices. From lighting and sockets to security and climate, manage every aspect of your home from a single dashboard, regardless of your location. Enjoy instant status updates and reliable remote access anytime, anywhere.',
-    //     headline2: 'Quick Device Setup, Scene Creation, and Powerful Home Automation Flow.',
-    //     para2: 'Setting up new products is fast and easy within the app, guiding you through every step. Create powerful automation scenarios and schedules that link multiple devices, ensuring your home responds intelligently to environmental changes, the time of day, or sensor input, thereby fully customizing your living experience.',
-    //     gallery: ['1.png', '5.png']
-    // },
     {
-        id: 14,
+        id: 13,
         hero: '1.png',
         slug: 'lighting-solutions',
         category: 'Lighting Solutions   ',
@@ -204,7 +190,7 @@ export const data = [
         gallery: ['1.png', '2.png', '5.png']
     },
     {
-        id: 15,
+        id: 14,
         hero: '1.png',
         slug: 'lighting-solutions',
         category: 'Lighting Solutions   ',
@@ -217,24 +203,8 @@ export const data = [
         para2: 'Complete your system with essential magnetic lighting, including various power supplies and dedicated shelved rails for a clean, integrated finish. For smart control, utilize the Zigbee PSU option to seamlessly link your magnetic lights to the smart ecosystem, enabling full app and voice automation capabilities.',
         gallery: ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png',]
     },
-
-    // {
-    //     id: 16,
-    //     hero: '1.png',
-    //     slug: 'lighting-solutions',
-    //     category: 'Lighting Solutions   ',
-    //     title: 'Non-Smart COB Lights',
-    //     thumbnailText: 'Reliable and high-performance conventional lights for foundational illumination',
-    //     bannerText: 'Efficient Non-Smart COB Lighting',
-    //     headline1: 'Premium, Non-Smart COB Lighting for Consistent and Focused Illumination',
-    //     para1: 'These high-quality, non-smart COB (Chip-on-Board) lights provide an exceptionally consistent and powerful beam of light, eliminating the speckled effect often associated with traditional LEDs. Ideal for applications requiring steady, reliable, and they offer superior light quality and long-term performance, making them perfect for general and task lighting.',
-    //     headline2: 'Lasting Lighting Solutions Designed with Durability and Easy Installation',
-    //     para2: 'Built with robust components, our non-smart COB lights ensure maximum lifetimes and minimal maintenance, delivering excellent value. While they do not include smart features, their simple and dependable design guarantees easy integration into any existing electrical system, providing a trustworthy lighting foundation for your home.',
-    //     gallery: ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png',]
-    // },
-
     {
-        id: 17,
+        id: 15,
         hero: '1.png',
         slug: 'smart-security',
         category: 'Smart Security',
@@ -248,7 +218,7 @@ export const data = [
         gallery: ['1.png', '2.png', '5.png']
     },
     {
-        id: 18,
+        id: 16,
         hero: '1.png',
         slug: 'smart-security',
         category: 'Smart Security',
@@ -261,9 +231,8 @@ export const data = [
         para2: 'Integrate these smart sensors into your automation scenes to create a truly responsive home. Program the system to precisely turn on pathway lighting when motion is detected at night, or send an alert if unexpected movement occurs. Enjoy reliable, instant detection that improves both security and seamless daily automation.',
         gallery: ['1.png', '2.png', '5.png']
     },
-
     {
-        id: 19,
+        id: 17,
         hero: '1.png',
         slug: 'non-smart-electrical',
         category: 'Non-Smart Electrical',
