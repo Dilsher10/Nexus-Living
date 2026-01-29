@@ -28,15 +28,6 @@ const ProductDetails = () => {
                                 <span className="mry-animation-el" />
                             </h1>
                             <div className="mry-text mry-fo">{product.bannerText}</div>
-                            {/* <div className="mry-scroll-hint-frame">
-                                <a
-                                    className="mry-scroll-hint mry-smooth-scroll mry-magnetic-link mry-fo"
-                                    href="#mry-anchor"
-                                >
-                                    <span className="mry-magnetic-object" />
-                                </a>
-                                <div className="mry-label mry-fo">Scroll Down</div>
-                            </div> */}
                         </div>
                     </div>
                 </div>
