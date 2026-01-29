@@ -16,31 +16,31 @@ const Menu = () => {
                                 </li>
                                 <li className="menu-item">
                                     <a
-                                        href="about"
+                                        href="/about"
                                         className="mry-anima-link mry-default-link"
                                     >
                                         About
                                     </a>
                                 </li>
                                 <li className="menu-item menu-item-has-children">
-                                    <a href="products" className="mry-default-link">
+                                    <a href="/products" className="mry-default-link">
                                         Products
                                     </a>
                                     <ul className="sub-menu">
-                                        <li className="menu-item"><a href="automation-smart-control" className="mry-anima-link mry-default-link">Automation / Smart Control</a></li>
-                                        <li className="menu-item"><a href="lighting-solutions" className="mry-anima-link mry-default-link">Lighting Solutions</a></li>
-                                        <li className="menu-item"><a href="smart-security" className="mry-anima-link mry-default-link">Smart Security</a></li>
-                                        <li className="menu-item"><a href="non-smart-electrical" className="mry-anima-link mry-default-link">Non-Smart Electrical</a></li>
+                                        <li className="menu-item"><a href="/automation-smart-control" className="mry-anima-link mry-default-link">Automation / Smart Control</a></li>
+                                        <li className="menu-item"><a href="/lighting-solutions" className="mry-anima-link mry-default-link">Lighting Solutions</a></li>
+                                        <li className="menu-item"><a href="/smart-security" className="mry-anima-link mry-default-link">Smart Security</a></li>
+                                        <li className="menu-item"><a href="/non-smart-electrical" className="mry-anima-link mry-default-link">Non-Smart Electrical</a></li>
                                     </ul>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="#" className="mry-default-link">
+                                    <a href="/works" className="mry-default-link">
                                         Works
                                     </a>
                                 </li>
                                 <li className="menu-item">
                                     <a
-                                        href="contact"
+                                        href="/contact"
                                         className="mry-anima-link mry-default-link"
                                     >
                                         Contact
@@ -59,26 +59,26 @@ const Menu = () => {
                             <div className="mry-info-box">
                                 <div className="mry-mb-20">
                                     <div className="mry-label mry-mb-5">Country:</div>
-                                    <div className="mry-text">Canada</div>
+                                    <div className="mry-text">Pakistan</div>
                                 </div>
                                 <div className="mry-mb-20">
                                     <div className="mry-label mry-mb-5">City:</div>
-                                    <div className="mry-text">Toronto</div>
+                                    <div className="mry-text">Islamabad</div>
                                 </div>
                                 <div className="mry-mb-20">
                                     <div className="mry-label mry-mb-5">Adress:</div>
-                                    <div className="mry-text">HTGS 4456 North Av.</div>
+                                    <div className="mry-text">Ground Floor, Plaza 18, Wisteria Road, Sector A DHA Phase 2, Islamabad</div>
                                 </div>
                                 <div className="mry-mb-20">
                                     <div className="mry-label mry-mb-5">Email:</div>
                                     <a className="mry-text" href="mailto:mireya.inbox@mail.com">
-                                        mireya.inbox@mail.com
+                                        info@nexusliving.pk
                                     </a>
                                 </div>
                                 <div className="mry-mb-20">
                                     <div className="mry-label mry-mb-5">Phone:</div>
-                                    <a className="mry-text" href="#.">
-                                        +4 9(054) 996 84 25
+                                    <a className="mry-text" href="tel:+92 309 7863987">
+                                        +92 309 7863987
                                     </a>
                                 </div>
                             </div>

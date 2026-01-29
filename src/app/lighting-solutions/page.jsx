@@ -98,7 +98,7 @@ const LightingSolutions = () => {
                                                             </span>
                                                         </a>
                                                         <a
-                                                            href=""
+                                                            href={`/products/${item.id}`}
                                                             className="mry-more mry-magnetic-link mry-anima-link"
                                                         >
                                                             <span className="mry-magnetic-object">

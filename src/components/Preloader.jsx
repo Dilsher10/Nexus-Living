@@ -7,8 +7,8 @@ const Preloader = () => {
             <div className="mry-preloader-content">
                 <img
                     className="mry-logo mry-mb-20" id='loader-logo'
-                    src="/assets/img/logo.svg"
-                    alt="Mireya"
+                    src="/assets/img/preloader-logo.png"
+                    alt="Nexus Living"
                 />
                 <div className="mry-loader-bar">
                     <div className="mry-loader" />

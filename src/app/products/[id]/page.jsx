@@ -28,7 +28,7 @@ const ProductDetails = () => {
                                 <span className="mry-animation-el" />
                             </h1>
                             <div className="mry-text mry-fo">{product.bannerText}</div>
-                            <div className="mry-scroll-hint-frame">
+                            {/* <div className="mry-scroll-hint-frame">
                                 <a
                                     className="mry-scroll-hint mry-smooth-scroll mry-magnetic-link mry-fo"
                                     href="#mry-anchor"
@@ -36,7 +36,7 @@ const ProductDetails = () => {
                                     <span className="mry-magnetic-object" />
                                 </a>
                                 <div className="mry-label mry-fo">Scroll Down</div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -263,13 +263,13 @@ const ProductDetails = () => {
                                                 <div className="mry-card-cover-frame mry-mb-20 mry-fo">
                                                     <div className="mry-badge">interior</div>
                                                     <img
-                                                        src="/assets/img/dark/projects/prjct-1/fs/1.jpg"
+                                                        src={`/assets/img/products/1/thumbnail.png`}
                                                         alt="project"
                                                     />
                                                     <div className="mry-cover-overlay" />
                                                     <div className="mry-hover-links">
                                                         <a
-                                                            href="/assets/img/dark/projects/prjct-1/fs/fs/1.jpg"
+                                                            href="/assets/img/products/1/thumbnail.png"
                                                             data-fancybox="works-slider"
                                                             className="mry-zoom mry-magnetic-link"
                                                         >
@@ -278,7 +278,7 @@ const ProductDetails = () => {
                                                             </span>
                                                         </a>
                                                         <a
-                                                            href="project.html"
+                                                            href={`/products/1`}
                                                             className="mry-more mry-magnetic-link mry-anima-link"
                                                         >
                                                             <span className="mry-magnetic-object">
@@ -289,7 +289,7 @@ const ProductDetails = () => {
                                                 </div>
                                                 <div className="mry-item-descr mry-fo">
                                                     <h4 className="mry-mb-10">
-                                                        <a href="project.html">Little Cottage</a>
+                                                        <a href={`/products/1`}>Little Cottage</a>
                                                     </h4>
                                                     <div className="mry-text">
                                                         Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -303,13 +303,13 @@ const ProductDetails = () => {
                                                 <div className="mry-card-cover-frame mry-mb-20 mry-fo">
                                                     <div className="mry-badge">interior</div>
                                                     <img
-                                                        src="/assets/img/dark/projects/prjct-2/fs/1.jpg"
+                                                        src={`/assets/img/products/2/thumbnail.png`}
                                                         alt="project"
                                                     />
                                                     <div className="mry-cover-overlay" />
                                                     <div className="mry-hover-links">
                                                         <a
-                                                            href="/assets/img/dark/projects/prjct-2/fs/fs/1.jpg"
+                                                            href="/assets/img/products/2/thumbnail.png"
                                                             data-fancybox="works-slider"
                                                             className="mry-zoom mry-magnetic-link"
                                                         >
@@ -318,7 +318,7 @@ const ProductDetails = () => {
                                                             </span>
                                                         </a>
                                                         <a
-                                                            href="project.html"
+                                                            href={`/products/2`}
                                                             className="mry-more mry-magnetic-link mry-anima-link"
                                                         >
                                                             <span className="mry-magnetic-object">
@@ -329,7 +329,7 @@ const ProductDetails = () => {
                                                 </div>
                                                 <div className="mry-item-descr mry-fo">
                                                     <h4 className="mry-mb-10">
-                                                        <a href="project.html">Compact House</a>
+                                                        <a href={`/products/2`}>Compact House</a>
                                                     </h4>
                                                     <div className="mry-text">
                                                         Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -343,13 +343,13 @@ const ProductDetails = () => {
                                                 <div className="mry-card-cover-frame mry-mb-20 mry-fo">
                                                     <div className="mry-badge">interior</div>
                                                     <img
-                                                        src="/assets/img/dark/projects/prjct-3/fs/1.jpg"
+                                                        src={`/assets/img/products/3/thumbnail.png`}
                                                         alt="project"
                                                     />
                                                     <div className="mry-cover-overlay" />
                                                     <div className="mry-hover-links">
                                                         <a
-                                                            href="/assets/img/dark/projects/prjct-3/fs/fs/1.jpg"
+                                                            href="/assets/img/products/3/thumbnail.png"
                                                             data-fancybox="works-slider"
                                                             className="mry-zoom mry-magnetic-link"
                                                         >
@@ -358,7 +358,7 @@ const ProductDetails = () => {
                                                             </span>
                                                         </a>
                                                         <a
-                                                            href="project.html"
+                                                            href={`/products/3`}
                                                             className="mry-more mry-magnetic-link mry-anima-link"
                                                         >
                                                             <span className="mry-magnetic-object">
@@ -369,7 +369,7 @@ const ProductDetails = () => {
                                                 </div>
                                                 <div className="mry-item-descr mry-fo">
                                                     <h4 className="mry-mb-10">
-                                                        <a href="project.html">Greenwell Yards</a>
+                                                        <a href={`/products/3`}>Greenwell Yards</a>
                                                     </h4>
                                                     <div className="mry-text">
                                                         Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -383,13 +383,13 @@ const ProductDetails = () => {
                                                 <div className="mry-card-cover-frame mry-mb-20 mry-fo">
                                                     <div className="mry-badge">interior</div>
                                                     <img
-                                                        src="/assets/img/dark/projects/prjct-4/fs/1.jpg"
+                                                        src={`/assets/img/products/4/thumbnail.png`}
                                                         alt="project"
                                                     />
                                                     <div className="mry-cover-overlay" />
                                                     <div className="mry-hover-links">
                                                         <a
-                                                            href="/assets/img/dark/projects/prjct-4/fs/fs/1.jpg"
+                                                            href="/assets/img/products/4/thumbnail.png"
                                                             data-fancybox="works-slider"
                                                             className="mry-zoom mry-magnetic-link"
                                                         >
@@ -398,7 +398,7 @@ const ProductDetails = () => {
                                                             </span>
                                                         </a>
                                                         <a
-                                                            href="project.html"
+                                                            href={`/products/4`}
                                                             className="mry-more mry-magnetic-link mry-anima-link"
                                                         >
                                                             <span className="mry-magnetic-object">
@@ -409,7 +409,7 @@ const ProductDetails = () => {
                                                 </div>
                                                 <div className="mry-item-descr mry-fo">
                                                     <h4 className="mry-mb-10">
-                                                        <a href="project.html">Flat House</a>
+                                                        <a href={`/products/4`}>Flat House</a>
                                                     </h4>
                                                     <div className="mry-text">
                                                         Lorem ipsum dolor sit amet, consectetur adipisicing

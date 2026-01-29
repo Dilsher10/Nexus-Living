@@ -6,7 +6,7 @@ const TopPanel = () => {
     <div className="mry-top-panel">
       <div className="mry-logo-frame">
         <a href="/" className="mry-default-link mry-anima-link">
-          <img className="mry-logo" src="/assets/img/logo.svg" alt="Nexus Living" />
+          <img className="mry-logo" src="/assets/img/logo.png" alt="Nexus Living" />
         </a>
       </div>
       <div className="mry-menu-button-frame">

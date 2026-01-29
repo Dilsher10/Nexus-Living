@@ -1,0 +1,143 @@
+.sectionContainer {
+    padding: 80px 0;
+    /* background-color: #ffffff; */
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.titleFrame {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.sliderWrapper {
+    margin-bottom: 60px;
+}
+
+.sliderWrapper:last-child {
+    margin-bottom: 0;
+}
+
+.sliderContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Gradient Masks for smooth fade edges */
+.sliderContainer::before,
+.sliderContainer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.logoTrack {
+    display: flex;
+    align-items: center;
+    width: max-content; /* Critical for auto-width */
+}
+
+/* Pause on hover */
+.sliderContainer:hover .logoTrack {
+    animation-play-state: paused !important;
+}
+
+.logoItem {
+    padding: 0 40px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.logoImage {
+    height: 60px; /* Base height for logos */
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.4s ease;
+}
+
+.logoItem:hover .logoImage {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animateLeft {
+    animation: scrollLeft linear infinite;
+}
+
+.animateRight {
+    animation: scrollRight linear infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .sectionTitle {
+        font-size: 2rem;
+    }
+    .logoImage {
+        height: 50px;
+    }
+    .logoItem {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sectionTitle {
+        font-size: 1.75rem;
+    }
+    .logoImage {
+        height: 40px;
+    }
+    .logoItem {
+        padding: 0 20px;
+    }
+    .sliderContainer::before,
+    .sliderContainer::after {
+        width: 50px;
+    }
+    .sectionContainer {
+        padding: 60px 0;
+    }
+}

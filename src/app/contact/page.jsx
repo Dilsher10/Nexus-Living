@@ -52,9 +52,9 @@ const Contact = () => {
                                             <div className="mry-fade-object mry-mb-100">
                                                 <h4 className="mry-mb-20 mry-fo">Welcome to visit</h4>
                                                 <p className="mry-text mry-mb-20 mry-fo">
-                                                    Canada, Toronto,
+                                                    Islamabad, Pakistan
                                                     <br />
-                                                    HTGS 4456 North Av.
+                                                    Ground Floor, Plaza 18, Wisteria Road, Sector A DHA Phase 2, Islamabad.
                                                 </p>
                                             </div>
                                         </div>
@@ -68,8 +68,8 @@ const Contact = () => {
                                             <div className="mry-fade-object mry-mb-100">
                                                 <h4 className="mry-mb-20 mry-fo">Shall we talk?</h4>
                                                 <p className="mry-text mry-fo">
-                                                    Email: mireya.inbox@mail.com <br />
-                                                    Phone: +4 9(054) 996 84 25
+                                                    Email: info@nexusliving.pk <br />
+                                                    Phone: +92 309 7863987
                                                 </p>
                                             </div>
                                         </div>
@@ -90,7 +90,7 @@ const Contact = () => {
                                     method="POST"
                                     id="form"
                                     className="mry-form mry-mb-100"
-                                    action="send.php"
+                                    action=""
                                 >
                                     <div className="row">
                                         <div className="col-lg-6">
