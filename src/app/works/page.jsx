@@ -28,15 +28,6 @@ const Products = () => {
                             <div className="mry-text mry-fo">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             </div>
-                            <div className="mry-scroll-hint-frame">
-                                <a
-                                    className="mry-scroll-hint mry-smooth-scroll mry-magnetic-link mry-fo"
-                                    href="#mry-anchor"
-                                >
-                                    <span className="mry-magnetic-object" />
-                                </a>
-                                <div className="mry-label mry-fo">Scroll Down</div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -52,7 +43,6 @@ const Products = () => {
                 </div>
                 
                 <Footer />
-                {/* footer end */}
                 <div className="mry-head-bg mry-head-bottom">
                     <img src="/assets/img/dark/projects/prjct-2/1.jpg" alt="background" />
                     <div className="mry-bg-overlay" />
