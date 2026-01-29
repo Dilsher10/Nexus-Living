@@ -25,15 +25,6 @@ const Contact = () => {
                                 <br />
                                 Adipisicing elit suscipit, at.
                             </div>
-                            <div className="mry-scroll-hint-frame">
-                                <a
-                                    className="mry-scroll-hint mry-smooth-scroll mry-magnetic-link mry-fo"
-                                    href="#mry-anchor"
-                                >
-                                    <span className="mry-magnetic-object" />
-                                </a>
-                                <div className="mry-label mry-fo">Scroll Down</div>
-                            </div>
                         </div>
                     </div>
                 </div>
