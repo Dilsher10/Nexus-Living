@@ -24,15 +24,6 @@ const LightingSolutions = () => {
                             <div className="mry-text mry-fo">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             </div>
-                            <div className="mry-scroll-hint-frame">
-                                <a
-                                    className="mry-scroll-hint mry-smooth-scroll mry-magnetic-link mry-fo"
-                                    href="#mry-anchor"
-                                >
-                                    <span className="mry-magnetic-object" />
-                                </a>
-                                <div className="mry-label mry-fo">Scroll Down</div>
-                            </div>
                         </div>
                     </div>
                 </div>
