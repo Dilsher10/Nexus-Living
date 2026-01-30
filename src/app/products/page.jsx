@@ -11,18 +11,18 @@ const Products = () => {
                     <img src="/assets/img/dark/projects/prjct-6/1.jpg" alt="background" />
                     <div className="mry-bg-overlay" />
                 </div>
-                <div className="mry-banner mry-p-140-0">
+                  <div className="mry-banner mry-p-140-0">
                     <div className="container">
                         <div className="mry-main-title mry-title-center">
                             <div className="mry-subtitle mry-mb-20 mry-fo">Portfolio</div>
                             <h1 className="mry-mb-20 mry-fo">
-                                Explore Our Amazing
+                                Transforming Spaces With
                                 <br />
-                                <span className="mry-border-text">Professional Cases</span>
+                                <span className="mry-border-text">Technical Excellence</span>
                                 <span className="mry-animation-el" />
                             </h1>
                             <div className="mry-text mry-fo">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                High-quality electrical solutions for modern and traditional homes.
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,6 @@ const Products = () => {
                 </div>
                 {/* portfolio end */}
                 <Footer />
-                {/* footer end */}
                 <div className="mry-head-bg mry-head-bottom">
                     <img src="/assets/img/dark/projects/prjct-2/1.jpg" alt="background" />
                     <div className="mry-bg-overlay" />

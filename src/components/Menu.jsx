@@ -67,7 +67,7 @@ const Menu = () => {
                                 </div>
                                 <div className="mry-mb-20">
                                     <div className="mry-label mry-mb-5">Adress:</div>
-                                    <div className="mry-text">Ground Floor, Plaza 18, Wisteria Road, Sector A DHA Phase 2, Islamabad</div>
+                                    <div className="mry-text">Ground Floor, Plaza 18, Wisteria Road, <br/> Sector A DHA Phase 2, Islamabad</div>
                                 </div>
                                 <div className="mry-mb-20">
                                     <div className="mry-label mry-mb-5">Email:</div>

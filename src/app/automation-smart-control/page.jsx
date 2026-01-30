@@ -16,13 +16,13 @@ const AutomationSmartControl = () => {
                         <div className="mry-main-title mry-title-center">
                             <div className="mry-subtitle mry-mb-20 mry-fo">Portfolio</div>
                             <h1 className="mry-mb-20 mry-fo">
-                                Explore Our Amazing
+                                Transforming Spaces With
                                 <br />
-                                <span className="mry-border-text">Professional Cases</span>
+                                <span className="mry-border-text">Technical Excellence</span>
                                 <span className="mry-animation-el" />
                             </h1>
                             <div className="mry-text mry-fo">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                High-quality electrical solutions for modern and traditional homes.
                             </div>
                         </div>
                     </div>

@@ -11,8 +11,7 @@ const Footer = () => {
                         Do you have <span className="mry-border-text">a project?</span>
                     </h2>
                     <div className="mry-text mry-mb-30  mry-fo">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
-                        Asperiores, cupiditate?
+                        Tell us about your idea, and we’ll help turn it into a smart, functional solution.
                     </div>
                     <div className="mry-fo">
                         <a

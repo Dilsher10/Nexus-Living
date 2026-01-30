@@ -226,10 +226,9 @@ const ProductDetails = () => {
                             <div className="col-lg-12">
                                 <div className="mry-main-title mry-title-center mry-p-0-40">
                                     <div className="mry-subtitle mry-mb-20 mry-fo">
-                                        More projects
+                                        More Products
                                     </div>
-                                    <h2 className="mry-fo">Similar projects</h2>
-                                    <div className="mry-arrows mry-fo">
+                                    {/* <div className="mry-arrows mry-fo">
                                         <div className="mry-sl-nav">
                                             <div className="mry-prev mry-button-blog-prev mry-magnetic-link">
                                                 <span className="mry-magnetic-object">
@@ -243,172 +242,55 @@ const ProductDetails = () => {
                                             </div>
                                         </div>
                                         <div className="mry-label mry-fo">Slider Navigation</div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-lg-12">
                                 <div className="swiper-container mry-blog-slider">
                                     <div className="swiper-wrapper">
-                                        <div className="swiper-slide">
-                                            <div className="mry-card-item">
-                                                <div className="mry-card-cover-frame mry-mb-20 mry-fo">
-                                                    <div className="mry-badge">interior</div>
-                                                    <img
-                                                        src={`/assets/img/products/1/thumbnail.png`}
-                                                        alt="project"
-                                                    />
-                                                    <div className="mry-cover-overlay" />
-                                                    <div className="mry-hover-links">
-                                                        <a
-                                                            href="/assets/img/products/1/thumbnail.png"
-                                                            data-fancybox="works-slider"
-                                                            className="mry-zoom mry-magnetic-link"
-                                                        >
-                                                            <span className="mry-magnetic-object">
-                                                                <i className="fas fa-expand" />
-                                                            </span>
-                                                        </a>
-                                                        <a
-                                                            href={`/products/1`}
-                                                            className="mry-more mry-magnetic-link mry-anima-link"
-                                                        >
-                                                            <span className="mry-magnetic-object">
-                                                                <i className="fas fa-arrow-right" />
-                                                            </span>
-                                                        </a>
+                                        {
+                                            data.filter(item => item.category === product.category).map((similarProduct, index) => (
+                                                <div key={index} className="swiper-slide">
+                                                    <div className="mry-card-item">
+                                                        <div className="mry-card-cover-frame mry-mb-20 mry-fo">
+                                                            <div className="mry-badge">{similarProduct.category}</div>
+                                                            <img
+                                                                src={`/assets/img/products/${similarProduct.id}/thumbnail.png`}
+                                                                alt="project"
+                                                            />
+                                                            <div className="mry-cover-overlay" />
+                                                            <div className="mry-hover-links">
+                                                                <a
+                                                                    href={`/assets/img/products/${similarProduct.id}/thumbnail.png`}
+                                                                    data-fancybox="works-slider"
+                                                                    className="mry-zoom mry-magnetic-link"
+                                                                >
+                                                                    <span className="mry-magnetic-object">
+                                                                        <i className="fas fa-expand" />
+                                                                    </span>
+                                                                </a>
+                                                                <a
+                                                                    href={`/products/${similarProduct.id}`}
+                                                                    className="mry-more mry-magnetic-link mry-anima-link"
+                                                                >
+                                                                    <span className="mry-magnetic-object">
+                                                                        <i className="fas fa-arrow-right" />
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div className="mry-item-descr mry-fo">
+                                                            <h4 className="mry-mb-10">
+                                                                <a href={`/products/${similarProduct.id}`}>{similarProduct.title}</a>
+                                                            </h4>
+                                                            <div className="mry-text">
+                                                                {similarProduct.thumbnailText}
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div className="mry-item-descr mry-fo">
-                                                    <h4 className="mry-mb-10">
-                                                        <a href={`/products/1`}>Little Cottage</a>
-                                                    </h4>
-                                                    <div className="mry-text">
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                        elit.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="mry-card-item">
-                                                <div className="mry-card-cover-frame mry-mb-20 mry-fo">
-                                                    <div className="mry-badge">interior</div>
-                                                    <img
-                                                        src={`/assets/img/products/2/thumbnail.png`}
-                                                        alt="project"
-                                                    />
-                                                    <div className="mry-cover-overlay" />
-                                                    <div className="mry-hover-links">
-                                                        <a
-                                                            href="/assets/img/products/2/thumbnail.png"
-                                                            data-fancybox="works-slider"
-                                                            className="mry-zoom mry-magnetic-link"
-                                                        >
-                                                            <span className="mry-magnetic-object">
-                                                                <i className="fas fa-expand" />
-                                                            </span>
-                                                        </a>
-                                                        <a
-                                                            href={`/products/2`}
-                                                            className="mry-more mry-magnetic-link mry-anima-link"
-                                                        >
-                                                            <span className="mry-magnetic-object">
-                                                                <i className="fas fa-arrow-right" />
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div className="mry-item-descr mry-fo">
-                                                    <h4 className="mry-mb-10">
-                                                        <a href={`/products/2`}>Compact House</a>
-                                                    </h4>
-                                                    <div className="mry-text">
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                        elit.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="mry-card-item">
-                                                <div className="mry-card-cover-frame mry-mb-20 mry-fo">
-                                                    <div className="mry-badge">interior</div>
-                                                    <img
-                                                        src={`/assets/img/products/3/thumbnail.png`}
-                                                        alt="project"
-                                                    />
-                                                    <div className="mry-cover-overlay" />
-                                                    <div className="mry-hover-links">
-                                                        <a
-                                                            href="/assets/img/products/3/thumbnail.png"
-                                                            data-fancybox="works-slider"
-                                                            className="mry-zoom mry-magnetic-link"
-                                                        >
-                                                            <span className="mry-magnetic-object">
-                                                                <i className="fas fa-expand" />
-                                                            </span>
-                                                        </a>
-                                                        <a
-                                                            href={`/products/3`}
-                                                            className="mry-more mry-magnetic-link mry-anima-link"
-                                                        >
-                                                            <span className="mry-magnetic-object">
-                                                                <i className="fas fa-arrow-right" />
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div className="mry-item-descr mry-fo">
-                                                    <h4 className="mry-mb-10">
-                                                        <a href={`/products/3`}>Greenwell Yards</a>
-                                                    </h4>
-                                                    <div className="mry-text">
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                        elit.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="mry-card-item">
-                                                <div className="mry-card-cover-frame mry-mb-20 mry-fo">
-                                                    <div className="mry-badge">interior</div>
-                                                    <img
-                                                        src={`/assets/img/products/4/thumbnail.png`}
-                                                        alt="project"
-                                                    />
-                                                    <div className="mry-cover-overlay" />
-                                                    <div className="mry-hover-links">
-                                                        <a
-                                                            href="/assets/img/products/4/thumbnail.png"
-                                                            data-fancybox="works-slider"
-                                                            className="mry-zoom mry-magnetic-link"
-                                                        >
-                                                            <span className="mry-magnetic-object">
-                                                                <i className="fas fa-expand" />
-                                                            </span>
-                                                        </a>
-                                                        <a
-                                                            href={`/products/4`}
-                                                            className="mry-more mry-magnetic-link mry-anima-link"
-                                                        >
-                                                            <span className="mry-magnetic-object">
-                                                                <i className="fas fa-arrow-right" />
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div className="mry-item-descr mry-fo">
-                                                    <h4 className="mry-mb-10">
-                                                        <a href={`/products/4`}>Flat House</a>
-                                                    </h4>
-                                                    <div className="mry-text">
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                        elit.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            ))
+                                        }
                                     </div>
                                 </div>
                             </div>

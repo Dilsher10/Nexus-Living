@@ -21,9 +21,7 @@ const Contact = () => {
                                 <span className="mry-animation-el" />
                             </h1>
                             <div className="mry-text mry-fo">
-                                Lorem ipsum dolor sit amet, consectetur.
-                                <br />
-                                Adipisicing elit suscipit, at.
+                                Let us help you bring your next big vision to life. 
                             </div>
                         </div>
                     </div>

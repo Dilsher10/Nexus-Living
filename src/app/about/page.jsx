@@ -15,13 +15,13 @@ const About = () => {
                         <div className="mry-main-title mry-title-center">
                             <div className="mry-subtitle mry-mb-20 mry-fo">About Us</div>
                             <h1 className="mry-mb-20 mry-fo">
-                                Design is Intelligence
+                                Design With Purpose
                                 <br />
-                                <span className="mry-border-text">Made Visible.</span>
+                                <span className="mry-border-text">Built to Perform.</span>
                                 <span className="mry-animation-el" />
                             </h1>
                             <div className="mry-text mry-fo">
-                                <b>Alina Wheeler</b> - Graphic Designer, Art Director.
+                                Redefining the balance between technology and lifestyle. At Nexus Living, <br/> we don’t just install gadgets; we design environments that anticipate your needs.
                             </div>
                         </div>
                     </div>
@@ -37,17 +37,10 @@ const About = () => {
                                         <div className="mry-subtitle">Who We Are</div>
                                     </div>
                                     <h3 className="mry-mb-40 mry-fo">
-                                        Mireya is an award winning full service marketing agency
+                                        Where smart design meets modern living in Pakistan
                                     </h3>
                                     <p className="mry-text mry-fo">
-                                        We has expertise in branding and brand strategy, website
-                                        design, social media management, content marketing,
-                                        pay-per-click advertising (PPC) and search engine optimization
-                                        (SEO). As a leading website design company in Toronto we have
-                                        expertise in WordPress design and development, e-commerce
-                                        website design and development, Shopify website design and
-                                        development and cater <br />
-                                        to SMB and enterprise clients.
+                                        Nexus Living is a luxury home-automation company based in Islamabad, dedicated to transforming traditional houses into intuitive, self-thinking homes. While others focus on hardware, we focus on the experience. We believe that true technology shouldn’t be seen; it should be felt through comfort, efficiency, and absolute peace of mind.
                                     </p>
                                 </div>
                             </div>
@@ -58,19 +51,14 @@ const About = () => {
                                         <div className="mry-subtitle">What wy do?</div>
                                     </div>
                                     <h3 className="mry-mb-40 mry-fo">
-                                        Relationships come first, everything <br />
-                                        else follows
+                                       We Bridge the Gap Between Complexity and Comfort
                                     </h3>
                                     <p className="mry-text mry-fo">
-                                        We take pride in having strong relationships with our clients.
-                                        To us, business is more than just a handshake and a signed
-                                        contract. Through our full suite of services, we help
-                                        businesses reach their goals and maximize return on investment
-                                        while focusing on transparency and communication.
+                                        We take pride in being more than just a service provider; we are your long-term technology partners. Whether it’s a single-room upgrade or a full-scale villa automation, we handle the design, integration, and ongoing support so you never have to worry about the "how"—you just enjoy the "wow."
                                     </p>
                                     <p className="mry-text mry-fo">
                                         Contact us today for your{" "}
-                                        <a href="contact.html" className="mry-default-link">
+                                        <a href="/contact" className="mry-default-link">
                                             free consultation
                                         </a>
                                         .
@@ -78,7 +66,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="col-lg-10">
-                                <div className="mry-about-video mry-mb-100 mry-fo">
+                                {/* <div className="mry-about-video mry-mb-100 mry-fo">
                                     <div className="mry-video-cover-frame">
                                         <img
                                             className="mry-video-cover"
@@ -97,29 +85,25 @@ const About = () => {
                                         </div>
                                         <div className="mry-curtain" />
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="col-lg-8">
                                 <div className="mry-numbering mry-fo">
                                     <div className="mry-border-text">03</div>
-                                    <div className="mry-subtitle">Services</div>
+                                    <div className="mry-subtitle">Our Specialized Services</div>
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="mry-text-center mry-mb-100">
                                             <h4 className="mry-mb-20 mry-fo">
-                                                Website design
-                                                <br />
-                                                &amp; Development
+                                                Automation & Smart <br/> Control
                                             </h4>
                                             <p className="mry-text mry-mb-20 mry-fo">
-                                                Our work empowers businesses to create unique user
-                                                experiences that engage, captivate, and deliver results.
-                                                Need your website designed in Toronto?
+                                                Centralize your world. Control your entire home—from curtains to home theaters—via a single touch panel or your voice. We make confusing systems simple.
                                             </p>
                                             <div className="mry-fo">
                                                 <a
-                                                    href="contact.html"
+                                                    href="/contact"
                                                     className="mry-link mry-default-link"
                                                 >
                                                     Order a service
@@ -130,18 +114,14 @@ const About = () => {
                                     <div className="col-lg-6">
                                         <div className="mry-text-center mry-mb-100">
                                             <h4 className="mry-mb-20 mry-fo">
-                                                Creative
-                                                <br />
-                                                &amp; Graphic Design
+                                                Intelligent Lighting <br/> Solutions
                                             </h4>
                                             <p className="mry-text mry-fo">
-                                                We are experienced storytellers, with a knack for
-                                                incorporating brand insights into compelling designs for
-                                                use in digital and print advertising campaigns.
+                                                Lighting isn't just about visibility; it's about ambiance. Our smart lighting designs save energy while automatically creating the perfect feel for every occasion.
                                             </p>
                                             <div className="mry-fo">
                                                 <a
-                                                    href="contact.html"
+                                                    href="/contact"
                                                     className="mry-link mry-default-link"
                                                 >
                                                     Order a service
@@ -152,18 +132,14 @@ const About = () => {
                                     <div className="col-lg-6">
                                         <div className="mry-text-center mry-mb-100">
                                             <h4 className="mry-mb-20 mry-fo">
-                                                Brand Marketing
-                                                <br />
-                                                &amp; Strategy
+                                                Advanced Smart <br/> Security
                                             </h4>
                                             <p className="mry-text mry-fo">
-                                                We help businesses construct their identity and develop a
-                                                tailored and concise brand strategy that will appeal to
-                                                your target audience.
+                                                Protect what matters most with AI-driven surveillance, biometric access, and 24/7 mobile alerts. Your home watches over you, even when you’re away.
                                             </p>
                                             <div className="mry-fo">
                                                 <a
-                                                    href="contact.html"
+                                                    href="/contact"
                                                     className="mry-link mry-default-link"
                                                 >
                                                     Order a service
@@ -174,116 +150,18 @@ const About = () => {
                                     <div className="col-lg-6">
                                         <div className="mry-text-center mry-mb-100">
                                             <h4 className="mry-mb-20 mry-fo">
-                                                Video Production
-                                                <br />
-                                                &amp; Marketing
+                                                Bespoke Electrical <br/> Design
                                             </h4>
                                             <p className="mry-text mry-fo">
-                                                Our video production team films, produces, and edits
-                                                content that will raise brand awareness, engagement, and
-                                                conversion rates.
+                                                We bridge the gap between traditional electrical engineering and modern smart tech, ensuring your home’s infrastructure is future-proof and aesthetically flawless.
                                             </p>
                                             <div className="mry-fo">
                                                 <a
-                                                    href="contact.html"
+                                                    href="/contact"
                                                     className="mry-link mry-default-link"
                                                 >
                                                     Order a service
                                                 </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-12">
-                                <div className="mry-main-title mry-title-center mry-p-0-40">
-                                    <div className="mry-numbering mry-fo">
-                                        <div className="mry-border-text">04</div>
-                                        <div className="mry-subtitle">Employees</div>
-                                    </div>
-                                    <h2 className="mry-fo">Our Amazing Team</h2>
-                                    <div className="mry-arrows mry-fo">
-                                        <div className="mry-sl-nav">
-                                            <div className="mry-prev mry-button-team-prev mry-magnetic-link">
-                                                <span className="mry-magnetic-object">
-                                                    <i className="fas fa-arrow-left" />
-                                                </span>
-                                            </div>
-                                            <div className="mry-next mry-button-team-next mry-magnetic-link">
-                                                <span className="mry-magnetic-object">
-                                                    <i className="fas fa-arrow-right" />
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div className="mry-label mry-fo">Slider Navigation</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-10">
-                                <div className="swiper-container mry-team-slider mry-mb-100">
-                                    <div className="swiper-wrapper">
-                                        <div className="swiper-slide">
-                                            <div className="mry-team-member mry-text-center">
-                                                <div className="mry-member-photo-frame mry-fo">
-                                                    <img
-                                                        src="/assets/img/dark/team/team-1.jpg"
-                                                        alt="Team member"
-                                                    />
-                                                    <div className="mry-photo-overlay" />
-                                                    <div className="mry-curtain" />
-                                                </div>
-                                                <h4 className="mry-mb-10 mry-fo">Viktoria Freeman</h4>
-                                                <p className="mry-text mry-simple-text mry-fo">
-                                                    UI/UX Designer
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="mry-team-member mry-text-center">
-                                                <div className="mry-member-photo-frame mry-fo">
-                                                    <img
-                                                        src="/assets/img/dark/team/team-2.jpg"
-                                                        alt="Team member"
-                                                    />
-                                                    <div className="mry-photo-overlay" />
-                                                    <div className="mry-curtain" />
-                                                </div>
-                                                <h4 className="mry-mb-10 mry-fo">Paul Trueman</h4>
-                                                <p className="mry-text mry-simple-text mry-fo">
-                                                    UI/UX Designer
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="mry-team-member mry-text-center">
-                                                <div className="mry-member-photo-frame mry-fo">
-                                                    <img
-                                                        src="/assets/img/dark/team/team-3.jpg"
-                                                        alt="Team member"   
-                                                    />
-                                                    <div className="mry-photo-overlay" />
-                                                    <div className="mry-curtain" />
-                                                </div>
-                                                <h4 className="mry-mb-10 mry-fo">Mike Oldman</h4>
-                                                <p className="mry-text mry-simple-text mry-fo">
-                                                    UI/UX Designer
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="mry-team-member mry-text-center">
-                                                <div className="mry-member-photo-frame mry-fo">
-                                                    <img
-                                                        src="/assets/img/dark/team/team-4.jpg"
-                                                        alt="Team member"
-                                                    />
-                                                    <div className="mry-photo-overlay" />
-                                                    <div className="mry-curtain" />
-                                                </div>
-                                                <h4 className="mry-mb-10 mry-fo">Emma Newman</h4>
-                                                <p className="mry-text mry-simple-text mry-fo">
-                                                    UI/UX Designer
-                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -292,28 +170,24 @@ const About = () => {
                             <div className="col-lg-8">
                                 <div className="mry-mb-100 mry-text-center">
                                     <div className="mry-numbering mry-fo">
-                                        <div className="mry-border-text">05</div>
-                                        <div className="mry-subtitle">We can become partners</div>
+                                        <div className="mry-border-text">04</div>
+                                        <div className="mry-subtitle">Why Partner With Us?</div>
                                     </div>
                                     <h3 className="mry-mb-40 mry-fo">
-                                        We’re here to help, let us take it from here.
+                                        Technology Changes. Our Commitment Doesn’t
                                     </h3>
                                     <p className="mry-text mry-fo">
-                                        We know that transparency is non-negotiable and that strong
-                                        communication is the foundation of any great relationship.
-                                        With the knowledge and expertise at Brand &amp; Mortar we are
-                                        confident that we can make an impact on your business and its
-                                        bottom line.
+                                        In an industry full of “install-and-forget” solutions, Nexus Living stands apart. We deliver transparent processes, expert guidance, and a Gold-Standard Aftercare Guarantee—so your home stays smart, efficient, and stress-free. With deep local expertise in Islamabad, we ensure every project enhances your lifestyle and adds lasting value to your home.
                                     </p>
                                 </div>
                             </div>
                             <div className="col-lg-12">
                                 <div className="mry-main-title mry-title-center mry-p-0-40">
                                     <div className="mry-numbering mry-fo">
-                                        <div className="mry-border-text">06</div>
+                                        <div className="mry-border-text">05</div>
                                         <div className="mry-subtitle">Testimonials</div>
                                     </div>
-                                    <h2 className="mry-fo">Our customers say</h2>
+                                    <h2 className="mry-fo">Our Customers Say</h2>
                                     <div className="mry-arrows">
                                         <div className="mry-sl-nav mry-fo">
                                             <div className="mry-prev mry-button-testimonials-prev mry-magnetic-link">
@@ -336,20 +210,17 @@ const About = () => {
                                     <div className="swiper-wrapper">
                                         <div className="swiper-slide">
                                             <div className="mry-title-center">
-                                                <img
-                                                    src="/assets/img/dark/clients/c-1.jpg"
+                                                {/* <img
+                                                    src="/assets/img/dark/clients/"
                                                     alt="client"
                                                     className="mry-reviewer mry-mb-20 mry-fo"
-                                                />
-                                                <h4 className="mry-mb-20 mry-fo">Emma Newman</h4>
+                                                /> */}
+                                                <h4 className="mry-mb-20 mry-fo">Salman Malik</h4>
                                                 <div className="mry-subtitle mry-mb-20 mry-fo">
-                                                    Creative director
+                                                    Islamabad
                                                 </div>
                                                 <p className="mry-text mry-fo">
-                                                    We evaluated numerous marketing firms and selected
-                                                    Mireya due to their experience in the solar industry,
-                                                    and the clear understanding of our business objectives
-                                                    that they demonstrated during the evaluation process.{" "}
+                                                    Nexus Living transformed my home into something out of a movie. The security features give my family peace of mind, and the lighting scenes are incredible. Best investment I've made.
                                                 </p>
                                                 <ul className="mry-star-rate mry-fo">
                                                     <li>
@@ -372,58 +243,17 @@ const About = () => {
                                         </div>
                                         <div className="swiper-slide">
                                             <div className="mry-title-center">
-                                                <img
+                                                {/* <img
                                                     src="/assets/img/dark/clients/c-2.jpg"
                                                     alt="client"
                                                     className="mry-reviewer mry-mb-20 mry-fo"
-                                                />
-                                                <h4 className="mry-mb-20 mry-fo">Paul Trueman</h4>
+                                                /> */}
+                                                <h4 className="mry-mb-20 mry-fo">Sarah Shah</h4>
                                                 <div className="mry-subtitle mry-mb-20 mry-fo">
-                                                    Creative director
+                                                    Lahore
                                                 </div>
                                                 <p className="mry-text mry-fo">
-                                                    We were very impressed with the progressive campaign and
-                                                    thought it spoke volumes to the reality of businesses.
-                                                    We have been working our way into the Toronto area for
-                                                    almost a year now and ready to gain some traction in
-                                                    that city.
-                                                </p>
-                                                <ul className="mry-star-rate mry-fo">
-                                                    <li>
-                                                        <i className="fas fa-star" />
-                                                    </li>
-                                                    <li>
-                                                        <i className="fas fa-star" />
-                                                    </li>
-                                                    <li>
-                                                        <i className="fas fa-star" />
-                                                    </li>
-                                                    <li>
-                                                        <i className="fas fa-star" />
-                                                    </li>
-                                                    <li className="mry-empty">
-                                                        <i className="fas fa-star" />
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="mry-title-center">
-                                                <img
-                                                    src="/assets/img/dark/clients/c-3.jpg"
-                                                    alt="client"
-                                                    className="mry-reviewer mry-mb-20 mry-fo"
-                                                />
-                                                <h4 className="mry-mb-20 mry-fo">Viktoria Freeman</h4>
-                                                <div className="mry-subtitle mry-mb-20 mry-fo">
-                                                    Creative director
-                                                </div>
-                                                <p className="mry-text mry-fo">
-                                                    We were very impressed with the progressive campaign and
-                                                    thought it spoke volumes to the reality of businesses.
-                                                    We have been working our way into the Toronto area for
-                                                    almost a year now and ready to gain some traction in
-                                                    that city.
+                                                    I evaluated several automation companies in Pakistan, including Neolux, but chose Nexus for their attention to detail and personalized service. Their team is professional, and the app is so easy to use.
                                                 </p>
                                                 <ul className="mry-star-rate mry-fo">
                                                     <li>
