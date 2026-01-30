@@ -26,7 +26,7 @@ const Products = () => {
                                 <span className="mry-animation-el" />
                             </h1>
                             <div className="mry-text mry-fo">
-                                Transforming Spaces With Technical Excellence
+                                Transforming Spaces With Technical Excellence.
                             </div>
                         </div>
                     </div>
