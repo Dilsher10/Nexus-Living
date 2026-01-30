@@ -32,15 +32,7 @@ const Products = () => {
                     </div>
                 </div>
 
-                <div className="mry-portfolio mry-p-100-100">
-                    <div className="container">
-                        <LogoSliderSection />
-                        <SolutionsSection />
-                        <PathToExcellence />
-                        <HowItWorksSection />
-                        <TestimonialSection />
-                    </div>
-                </div>
+               
                 
                 <Footer />
                 <div className="mry-head-bg mry-head-bottom">
