@@ -20,13 +20,13 @@ const Products = () => {
                         <div className="mry-main-title mry-title-center">
                             <div className="mry-subtitle mry-mb-20 mry-fo">Works</div>
                             <h1 className="mry-mb-20 mry-fo">
-                                Explore Our Amazing
+                                Transforming Spaces Into
                                 <br />
-                                <span className="mry-border-text">Professional Cases</span>
+                                <span className="mry-border-text">Intelligent Environments</span>
                                 <span className="mry-animation-el" />
                             </h1>
                             <div className="mry-text mry-fo">
-                                Transforming Spaces With Technical Excellence
+                                Explore smart automation projects designed for luxury living.
                             </div>
                         </div>
                     </div>

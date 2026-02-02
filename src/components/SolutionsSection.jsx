@@ -15,7 +15,7 @@ const SolutionsSection = () => {
     const features = [
         {
             id: 1,
-            text: 'On Site Maintenance',
+            text: 'Hands-On Support',
             icon: (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
@@ -24,7 +24,7 @@ const SolutionsSection = () => {
         },
         {
             id: 2,
-            text: '1 Year Replacement',
+            text: '12-Month Warranty',
             icon: (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M21 12a9 9 0 1 1-6.219-8.56" />
@@ -36,7 +36,7 @@ const SolutionsSection = () => {
         },
         {
             id: 3,
-            text: 'Original Equipment Manufacturers',
+            text: 'Authentic Engineering',
             icon: (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
@@ -46,7 +46,7 @@ const SolutionsSection = () => {
         },
         {
             id: 4,
-            text: 'We Aim Mobility',
+            text: 'Total Mobile Integration',
             icon: (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="12" cy="12" r="10" />
@@ -104,9 +104,9 @@ const SolutionsSection = () => {
 
                 {/* Right Side: Content */}
                 <div className={styles.rightSide}>
-                    <p className={styles.subtitle}>Our Solutions</p>
+                    <p className={styles.subtitle}>OUR EXPERTISE</p>
                     <h2 className={styles.mainTitle}>
-                        Building Trust,<br />Driving Innovation
+                        Trusted Solutions,<br />Smarter Living
                     </h2>
 
                     <div className={styles.featureList}>
