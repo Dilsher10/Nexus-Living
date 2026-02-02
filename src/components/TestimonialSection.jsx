@@ -6,39 +6,25 @@ import styles from './TestimonialSection.module.css';
 const testimonials = [
     {
         id: 1,
-        quote: "The Neolux team went above and beyond to meet our needs. Their customer service is unparalleled, and their dedication to delivering high-quality results is evident in everything they do.",
-        name: "Fiaz",
-        role: "Home Owner",
+        quote: "Nexus completely transformed our home’s security and lighting. Everything works seamlessly in one simple app—even our kids can use it. The safety and beautiful evening lighting have truly enhanced our living experience.",
+        name: "Hadi",
+        role: "Villa Owner",
         stars: 5,
     },
     {
         id: 2,
-        quote: "Working with Neolux was a game-changer for our business. Their solutions helped us streamline our operations and achieve efficiency we never thought possible. Highly recommended!",
-        name: "Afzal",
-        role: "Home Owner",
+        quote: "We needed a smart solution to cut energy waste in our multi-story headquarters. The Nexus intelligent climate and lighting system reduced our utility costs by 30%. Their expertise and professionalism are unmatched.",
+        name: "Omar",
+        role: "Corporate Director",
         stars: 5,
     },
     {
         id: 3,
-        quote: "Neolux delivered fresh perspectives and innovative solutions for our project. Their remarkable ability to blend creativity with practicality exceeded our expectations. We're thrilled with the results!",
-        name: "Hamid",
-        role: "Home Owner",
+        quote: "I'm selective about hardware aesthetics, and Nexus sleek devices complement my designs perfectly. Their support during construction made integration smooth and stress-free for my clients.",
+        name: "Faizan",
+        role: "Senior Architect",
         stars: 5,
-    },
-    {
-        id: 4,
-        quote: "Very professional and reliable. The smart home automation they installed is top-notch and has made our lives much easier.",
-        name: "Sarah",
-        role: "Business Owner",
-        stars: 5,
-    },
-    {
-        id: 5,
-        quote: "Excellent experience from start to finish. The team was knowledgeable and very helpful in choosing the right products for us.",
-        name: "John",
-        role: "Developer",
-        stars: 5,
-    },
+    }
 ];
 
 const TestimonialSection = () => {
@@ -147,9 +133,9 @@ const TestimonialSection = () => {
         <section className={styles.testimonialSection}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <p className={styles.subtitle}>TAILORED FOR YOU</p>
+                    <p className={styles.subtitle}>Real Experiences With Nexus Living</p>
                     <h2 className={styles.title}>
-                        Connecting You to Smarter Living<br />Solution
+                        What Our Customers Say
                     </h2>
                 </div>
 
