@@ -7,18 +7,18 @@ const PathToExcellence = () => {
     const services = [
         {
             id: 1,
-            title: "Smart Villas",
+            title: "Modern Villas",
             icon: (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                     <polyline points="9 22 9 12 15 12 15 22" />
                 </svg>
             ),
-            description: "Transform your villa into an epitome of sophistication and innovation with Neolux's premier home automation solutions. Our bespoke packages elevate your space, seamlessly integrating cutting-edge technology for unmatched convenience, security, and luxury. Redefine modern living by infusing your villa with the latest smart systems, creating an environment that reflects both elegance and efficiency."
+            description: "Upgrade your villa into a Place of comfort and innovation with Nexus Living. Experience seamless modern technology, convenience, safety, and style—all in one smart, secure home. Enjoy a higher standard of living as your home becomes smarter, more secure, and effortlessly stylish with cutting-edge automation designed specifically for modern villas."
         },
         {
             id: 2,
-            title: "Smart Apartments",
+            title: "Modern Apartments",
             icon: (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="3" y="2" width="18" height="20" rx="2" ry="2" />
@@ -30,11 +30,11 @@ const PathToExcellence = () => {
                     <line x1="3" y1="18" x2="21" y2="18" />
                 </svg>
             ),
-            description: "Neolux goes beyond villas to offer premium home automation solutions for apartments. Enhance your living space with our range of stylish products, including smart lighting, energy-efficient thermostats, security systems, and more — delivering both luxury and practicality at the best value. With Neolux Smart, transform your apartment into a modern, connected home where cutting-edge technology meets elegant design."
+            description: "Nexus brings smart living to apartments with advanced automation solutions you can rely on. Enhance your everyday life with features like smart lighting, energy-efficient thermostats, and advanced security systems. Our solutions combine luxury with functionality, making your apartment a connected, efficient home where technology works naturally with modern design."
         },
         {
             id: 3,
-            title: "Smart Offices",
+            title: "Modern Offices",
             icon: (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="4" y="2" width="16" height="20" rx="2" ry="2" />
@@ -42,7 +42,7 @@ const PathToExcellence = () => {
                     <path d="M8 6h.01" /><path d="M16 6h.01" /><path d="M8 10h.01" /><path d="M16 10h.01" /><path d="M8 14h.01" /><path d="M16 14h.01" />
                 </svg>
             ),
-            description: "Enhance your workplace with Neolux's smart office solutions, including cutting-edge digital door locks for secure and convenient entry and exit. Designed to optimize energy efficiency, improve security, and streamline daily processes, our technology adapts seamlessly to the evolving needs of your organization. Create a dynamic, efficient, and secure work environment, empowering your team while reducing operational costs and ensuring hassle-free access with our advanced security systems."
+            description: "Transform your workplace with Nexus smart office solutions, including secure digital locks and intelligent access controls. Our technology improves daily operations, strengthens security, and increases energy efficiency. Tailored to your organization’s needs, these solutions create a safe, productive, and modern workspace while cutting costs and improving overall efficiency."
         }
     ];
 
@@ -50,7 +50,7 @@ const PathToExcellence = () => {
         <section className={styles.sectionContainer}>
             <div className={styles.contentWrapper}>
                 <h2 className={styles.mainTitle}>
-                    Streamlining Your Path to Excellence
+                    Smart Solutions for Every Space
                 </h2>
 
                 <div className={styles.grid}>
