@@ -7,17 +7,17 @@ const HowItWorksSection = () => {
     const steps = [
         {
             id: 1,
-            title: "Installation",
+            title: "Professional Installation",
             image: "/hiw_installation.png"
         },
         {
             id: 2,
-            title: "Configuration",
+            title: "Expert Configuration",
             image: "/hiw_configuration.png"
         },
         {
             id: 3,
-            title: "Support",
+            title: "Reliable Support",
             image: "/hiw_support.png"
         }
     ];
@@ -25,7 +25,7 @@ const HowItWorksSection = () => {
     return (
         <section className={styles.sectionContainer}>
             <div className={styles.contentWrapper}>
-                <h2 className={styles.mainTitle}>How it works</h2>
+                <h2 className={styles.mainTitle}>How We Deliver Excellence</h2>
 
                 <div className={styles.grid}>
                     {steps.map((step) => (
