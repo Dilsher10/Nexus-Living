@@ -1022,7 +1022,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 	position: absolute;
 	z-index: 1;
 	top: 0;
-	right: 0;
+	right: 5rem;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -2383,6 +2383,13 @@ blockquote:after {
 	.mry-project-slider-item .mry-project-frame .mry-main-title-frame .mry-main-title {
 		background-color: transparent !important;
 	}
+	.mry-project-slider-item .mry-project-frame .mry-cover-frame .mry-project-cover {
+		right: 0;
+		/* object-fit: contain; */
+	}
+	/* .mry-main-title {
+        margin-bottom: 2.2rem;
+    } */
 }
 
 
